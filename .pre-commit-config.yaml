@@ -16,7 +16,7 @@ repos:
     rev: v2.4.1
     hooks:
     - id: codespell
-      args: ["--ignore-words", "dev/codespell/ignore-words.txt", "--skip", "./.git"]
+      args: ["--ignore-words", "dev/codespell/ignore-words.txt", "--skip", "./.git,dev/codespell/exclude-file.txt"]
       additional_dependencies:
         - tomli
 
