@@ -29,7 +29,7 @@ from sphinx_gallery.sorting import ExplicitOrder
 # Load utils docs functions
 from gammapy.utils.docs import SubstitutionCodeBlock, DynamicPRLinkTransform, gammapy_sphinx_ext_activate
 
-# flake8: noqa
+
 
 # Add our custom directives to Sphinx
 def setup(app):
